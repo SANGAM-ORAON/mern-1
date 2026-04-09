@@ -23,8 +23,8 @@ const Register = () => {
 
     try {
       const res = await axios.post(
-        "https://mern-1-muwi.onrender.com/api/auth/register",
-        formData,
+        `${import.meta.env.VITE_API_BASE_URL}/api/auth/register`,
+  formData,
       );
 
       setMessage(res.data.message);
