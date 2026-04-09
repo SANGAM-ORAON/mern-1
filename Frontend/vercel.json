@@ -1,8 +1,4 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "routes": [
-    { "src": "/api/(.*)", "dest": "https://your-backend.onrender.com/api/$1" },
-    { "src": "/(.*)", "dest": "/" }
-  ]
 }
