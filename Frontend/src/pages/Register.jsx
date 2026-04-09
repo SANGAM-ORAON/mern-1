@@ -23,7 +23,7 @@ const Register = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:3000/api/auth/register",
+        "https://mern-1-muwi.onrender.com/api/auth/register",
         formData,
       );
 
